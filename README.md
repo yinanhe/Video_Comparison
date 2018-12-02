@@ -8,3 +8,5 @@ kmeans_orb.py is the preparision of this demo.
 use python kmeans_orb.py to generate the kmeans_pkl for demo to read.
 
 use Video_Comparison_BasedOn_orb.py to compute the similarity.
+
+then use CNN to 
