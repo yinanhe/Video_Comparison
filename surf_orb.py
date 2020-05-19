@@ -10,6 +10,8 @@ img2 = cv2.imread('F:/201412.jpg', cv2.IMREAD_GRAYSCALE)
 
 # 创建orb特征检测器和描述符
 orb = cv2.ORB_create()
+
+#orb = cv2.SURF
 kp1, des1 = orb.detectAndCompute(img1, None)
 kp2, des2 = orb.detectAndCompute(img2, None)
 
